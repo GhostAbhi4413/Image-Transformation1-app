@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 st.title("Image Transformations WebApp")
-st.markdown("**Developed by Abhishek**", unsafe_allow_html=True)
+st.markdown("****", unsafe_allow_html=True)
 
 image = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
 
