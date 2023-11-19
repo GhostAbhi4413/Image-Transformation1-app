@@ -1,4 +1,4 @@
-Introduction:
+**Introduction:
 Image manipulation involves a variety of transformations that can bring about changes in an image's position, orientation, size, and shape. These transformations are crucial in computer vision, graphics, and various applications where altering visual data is necessary. In this context, we explore fundamental image transformations such as translation, rotation, scaling, and shearing.
 
 Translation:
