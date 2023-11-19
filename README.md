@@ -1,43 +1,31 @@
-**Introduction:
-Image manipulation involves a variety of transformations that can bring about changes in an image's position, orientation, size, and shape. These transformations are crucial in computer vision, graphics, and various applications where altering visual data is necessary. In this context, we explore fundamental image transformations such as translation, rotation, scaling, and shearing.
+Image Transformation Web App
+*Overview
+This repository hosts a Streamlit web application for image transformations. Users can upload images and apply various transformations such as translation, rotation, scaling, and shearing. The transformations are interactive, allowing users to adjust parameters dynamically and visualize the effects on the uploaded images.
 
-Translation:
-Translation shifts an image along both the horizontal (x) and vertical (y) axes. It effectively relocates the entire image, allowing for repositioning. This transformation is defined by specifying the amount of displacement in both the x and y directions.
-
-Rotation:
-Rotation entails the turning of an image by a specified angle around a defined point. It serves to change the image's orientation, and rotations can occur clockwise or counterclockwise. Common angles include 90 degrees, though any angle can be chosen.
-
-Scaling:
-Scaling involves resizing an image by a factor along both the x and y axes. This can result in either enlargement or reduction of the image. A factor greater than 1 increases the size, while a factor between 0 and 1 decreases it.
-
-Shearing:
-Shearing is a transformation that distorts the shape of an image by tilting or slanting it along one or both axes. It's a versatile transformation that can create effects like skewing or stretching.
-
-Web Application Overview:
-Our Streamlit web application provides a user-friendly interface for applying these transformations to uploaded images. The application features a file uploader, interactive transformation controls, and the ability to visualize the effects of the transformations in real-time.
-
-Key Features:
-
-File Uploader: Supports image uploads in jpg, png, or jpeg formats.
-Interactive Transformations: Utilizes sliders for adjusting rotation angle, scale (X and Y), and shear (X and Y) to provide a dynamic and interactive transformation experience.
-Apply Transformations: Users can click the "Apply Transformations" button to instantly view the transformed images alongside the original, complete with captions indicating the applied transformations.
-Usage Instructions:
-
-Install the necessary dependencies using pip install streamlit opencv-python numpy.
-Run the Streamlit app using streamlit run image_transformation.py.
+Features
+File Uploader: Supports jpg, png, and jpeg formats for image uploads.
+Interactive Transformations: Sliders for rotation angle, scale (X and Y), and shear (X and Y) enable dynamic adjustments.
+Apply Transformations: Click the "Apply Transformations" button to see the transformed images alongside the original, with applied transformation captions.
+Usage
+Install dependencies: pip install streamlit opencv-python numpy
+Run the Streamlit app: streamlit run image_transformation.py
 Open the provided URL in your web browser.
-Upload an image through the file uploader.
-Adjust transformation parameters using the intuitive sliders.
-Observe the results by clicking the "Apply Transformations" button.
-File Structure:
+Upload an image using the file uploader.
+Adjust transformation parameters using the sliders.
+Click the "Apply Transformations" button to view the results.
+File Structure
+image_transformation.py: Main Streamlit application code.
+requirements.txt: List of required Python packages.
+Customization
+To customize the web app, edit the image_transformation.py file. Extend functionality or integrate additional features based on specific requirements.
 
-image_transformation.py: The main code for the Streamlit application.
-requirements.txt: A list of required Python packages.
-Customization:
-Feel free to customize the appearance and behavior of the web app by editing the image_transformation.py file. You can extend functionality or integrate additional features based on your specific requirements.
-
-Dependencies:
-
+Dependencies
 Streamlit
 OpenCV
 NumPy
+Feel free to explore and enhance the capabilities of the image transformation web app! If you encounter any issues or have suggestions, please submit them through the GitHub issues tab. Contributions are welcome!
+
+
+
+
+
